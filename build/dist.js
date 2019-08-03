@@ -93,8 +93,15 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("hello");
-var x = "hello";
+var obj = {
+  label: "go"
+};
+
+function myfunc(arg) {
+  console.log(arg);
+}
+
+myfunc(obj);
 
 /***/ })
 

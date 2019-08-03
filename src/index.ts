@@ -1,3 +1,15 @@
-console.log("hello")
+const obj = {
+  label: "go"
+}
 
-var x = "hello";
+interface Next {
+  label: string
+}
+
+function myfunc(arg: Next) {
+  console.log(arg);
+}
+
+
+myfunc(obj)
+ 
